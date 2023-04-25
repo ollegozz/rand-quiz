@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/rand-quiz/static/js/main.63e8c248.js",
+    "main.css": "/rand-quiz/static/css/main.e127348e.css",
+    "main.js": "/rand-quiz/static/js/main.7521e9f3.js",
     "index.html": "/rand-quiz/index.html",
-    "main.63e8c248.js.map": "/rand-quiz/static/js/main.63e8c248.js.map"
+    "main.e127348e.css.map": "/rand-quiz/static/css/main.e127348e.css.map",
+    "main.7521e9f3.js.map": "/rand-quiz/static/js/main.7521e9f3.js.map"
   },
   "entrypoints": [
-    "static/js/main.63e8c248.js"
+    "static/css/main.e127348e.css",
+    "static/js/main.7521e9f3.js"
   ]
 }
