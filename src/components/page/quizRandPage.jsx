@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 
 const QuizRandPage = (props) => {
 
   const { quiz, setQuiz } = props
+  const [id, setId] = useState()
 
   return (
     <div className='container mx-auto max-w-8xl'>
@@ -15,7 +17,9 @@ const QuizRandPage = (props) => {
             <div className='font-bold text-xl p-2'>{item.title}</div>
             <div className='p-2'>{item.question}</div>
             <div className='pt-5 pb-2'>
-              <button className='border-2 rounded-[12px] px-8  hover:bg-blue-400 hover:text-white text-xl font-bold'>Open</button>
+              <button className='border-2 rounded-[12px] px-8  hover:bg-blue-400 hover:text-white text-xl font-bold'>
+                <Link title={item.id} to={`/quiz/${item.id}`}>Открыть</Link>
+              </button>
             </div>
           </div>
         ))}

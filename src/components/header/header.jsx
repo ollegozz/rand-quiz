@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -14,8 +15,12 @@ export default function Header() {
       </div>
       <nav className='w-2/4'>        
         <ul className='flex justify-between'>
-          <li className='px-10 hover:underline hover:text-blue-500'><a href="/#">Главная</a></li>
-          <li className='px-10'><a href="/#">Квизы</a></li>
+          <li className='px-10 hover:underline hover:text-blue-500'>
+            <Link to={`./`}>Главная</Link>
+          </li>
+          <li className='px-10 hover:underline hover:text-blue-500'>
+            <Link to={`./quiz`}>Квизы</Link>
+          </li>
           <li className='px-10'><a href="/#">Загадки</a></li>
           <li className='px-10'><a href="/#">Интересное</a></li>
           <li className='px-10'><a href="/#">Справка</a></li>
