@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const QuizRandPage = (props) => {
 
   const { quiz, setQuiz } = props
-  const [id, setId] = useState()
 
   return (
     <div className='container mx-auto max-w-8xl'>
