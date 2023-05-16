@@ -12,10 +12,15 @@ const QuizRandPageItem = (props) => {
     <>
       {quiz.map((item) => (
         item.id === id &&
-        <div key={item.id}>
-          <h1>{item.title}</h1>
-          <p>{item.question}</p>
-          <img src={item.image} alt="" />
+        <div key={item.id} className='text-center'>
+            <h1 className='font-bold text-xl p-2'>{item.title}</h1>
+            <p className='font-bold text-xl p-2'>{item.question}</p>
+            <div className='flex justify-center'> 
+              <img
+                className='max-w-2xl'
+                src={item.image} alt="" />
+            </div>
+          
         </div>
       ))}
     </>

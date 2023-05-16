@@ -1,50 +1,58 @@
 [
     {
         "id": "001",
-        "title": "1Lorem ipsum dolor sit amet.",
-        "question": "1Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, maxime!",
-        "image": "001"
+        "title": "Детская загадка",
+        "question": "Мету, мету — не вымету; несу, несу — не вынесу; пора придёт, сама уйдет.",
+        "image": "http://static.wixstatic.com/media/c58e0be6086a4f0e87c23d7a36cd03fc.jpg_srz_980_653_85_22_0.50_1.20_0.00_jpg_srz",
+        "answer": "Тень"
     },
     {
         "id": "002",
-        "title": "2Lorem ipsum dolor sit amet.",
-        "question": "2Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, maxime!",
-        "image": "001"
+        "title": "Детская загадка",
+        "question": "Шёл долговяз, во сыру землю увяз",
+        "image": "https://k1news.ru/wp-content/uploads/2020/04/3f84f74c0f00d53b4ca3c31d506bc583.jpg",
+        "answer": "Дождь"
     },
     {
         "id": "003",
-        "title": "Lorem ipsum dolor sit amet.",
-        "question": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, maxime!",
-        "image": "001"
+        "title": "Детская загадка",
+        "question": "Заря заряница, красная девица, врата запирала, по полю гуляла, ключи потеряла, месяц видел, а солнце крало.",
+        "image": "https://i.pinimg.com/736x/84/48/41/8448411403f32d37f3c6a7667e00769f--grasses-leaves.jpg",
+        "answer": "Роса"
     },
     {
         "id": "004",
-        "title": "Lorem ipsum dolor sit amet.",
-        "question": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, maxime!",
-        "image": "001"
+        "title": "Детская загадка",
+        "question": "Черна, а не земля, Пушиста, а не снег, Греет, а не печка.",
+        "image": "https://sun9-13.userapi.com/impg/7STcXtWcFs-uwm-f-BxKRPmPhm0KrA_uX2X7Ew/vR6c_lrGX4Q.jpg?size=567x604&quality=96&sign=82e391e3c6875e9f39aa74eda2139293&c_uniq_tag=rPEu7cJv22AHmEwJ2u0RPvINEIpaWY8xNY3tV_XZROs&type=album",
+        "answer": "Шуба"
     },
     {
         "id": "005",
-        "title": "Lorem ipsum dolor sit amet.",
-        "question": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, maxime!",
-        "image": "001"
+        "title": "Врослая загадка",
+        "question": "Где можно отдохнуть на Новый Год на 100 рублей?",
+        "image": "https://r4.mt.ru/r20/photoFD9F/20640166532-0/jpg/bp.jpeg",
+        "answer": "В 1975 году"
     },
     {
         "id": "006",
-        "title": "Lorem ipsum dolor sit amet.",
-        "question": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, maxime!",
-        "image": "001"
+        "title": "Детская загадка",
+        "question": "На каком языке говорят молча",
+        "image": "https://litmap.ru/wp-content/uploads/3/4/c/34c55deef9b8c6a97c2cd8736ed692c9.jpeg",
+        "answer": "Язык жестов"
     },
     {
         "id": "007",
-        "title": "Lorem ipsum dolor sit amet.",
-        "question": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, maxime!",
-        "image": "001"
+        "title": "Детская загадка",
+        "question": "Идет то в гору, то с горы, но остается на месте.",
+        "image": "https://vev.ru/wp-content/uploads/2014/11/obzornaja-trassa-na-lofotenskih-ostrovah-v-norvegii.jpg",
+        "answer": "Дорога"
     },
     {
         "id": "008",
-        "title": "Lorem ipsum dolor sit amet.",
-        "question": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, maxime!",
-        "image": "001"
+        "title": "Словарный запас",
+        "question": "В каком слове 5 'е' и никаких других гласных?",
+        "image": "https://flomaster.club/uploads/posts/2022-08/thumbs/1660766396_4-flomaster-club-p-turisti-kartinki-dlya-detei-krasivo-8.jpg",
+        "answer": "Переселенец"
     }
 ]
