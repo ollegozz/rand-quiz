@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Main />}/>
           <Route path='/quiz' element={<QuizRandPage quiz={quiz} setQuiz={setQuiz}/>}/>
-          <Route path='/quiz/:id' element={<QuizRandPageItem />}/>
+          <Route path='/quiz/:id' element={<QuizRandPageItem quiz={quiz}/>}/>
         </Routes>
       </BrowserRouter>      
       <Footer />

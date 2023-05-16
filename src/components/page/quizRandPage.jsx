@@ -6,6 +6,8 @@ const QuizRandPage = (props) => {
 
   const { quiz, setQuiz } = props
 
+  // console.log(quiz);
+
   return (
     <div className='container mx-auto max-w-8xl'>
       <h2 className='font-bold text-xl text-center py-8'>QuizRandPage</h2>
@@ -17,7 +19,7 @@ const QuizRandPage = (props) => {
             <div className='p-2'>{item.question}</div>
             <div className='pt-5 pb-2'>
               <button className='border-2 rounded-[12px] px-8  hover:bg-blue-400 hover:text-white text-xl font-bold'>
-                <Link title={item.id} to={`/quiz/${item.id}`}>Открыть</Link>
+                <Link to={`/quiz/${item.id}`}>Открыть</Link>
               </button>
             </div>
           </div>
