@@ -4,12 +4,17 @@ import { Link } from 'react-router-dom';
 
 const QuizRandPage = (props) => {
 
-  const { quiz, setQuiz } = props
+  const { quiz } = props
+  const [randId, setRandId] = useState('')
 
-  // console.log(quiz);
+  function getRandomQuestion() {
+    setRandId(Math.floor(Math.random() * 10) + 1)    
+  }
+  
+  console.log(randId);
 
   return (
-    <div className='container mx-auto max-w-8xl'>
+    <div className='container mx-auto max-w-8xl text-center'>
       <h2 className='font-bold text-xl text-center py-8'>QuizRandPage</h2>
       <div className='flex flex-row text-center flex-wrap justify-center'>
 
@@ -24,8 +29,13 @@ const QuizRandPage = (props) => {
             </div>
           </div>
         ))}
-
       </div>
+      <button
+        className='m-10 p-3 px-3 border-2 rounded-full border-blue-500 hover:bg-blue-400 hover:text-white'
+        onClick={getRandomQuestion}
+        >
+        <Link to={`/quiz/${randId}`}>Случайный вопрос</Link>
+          </button>
     </div>
   )
 }

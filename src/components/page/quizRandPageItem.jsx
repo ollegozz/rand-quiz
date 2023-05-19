@@ -1,5 +1,4 @@
 import React from 'react'
-import { useEffect } from 'react';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -24,7 +23,7 @@ const QuizRandPageItem = (props) => {
           {answer ?
             <div>
               <button
-                className='mr-3 py-1 px-3 border-2 rounded-full border-blue-500 hover:bg-blue-400 hover:text-white'
+                className='m-10 p-3 px-3 border-2 rounded-full border-blue-500 hover:bg-blue-400 hover:text-white'
                 onClick={getAnswer}>Скрыть ответ</button>
               <p>{item.answer}</p>
               <div className=' justify-center flex'>
