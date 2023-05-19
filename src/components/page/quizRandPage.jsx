@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 
 
@@ -8,10 +8,12 @@ const QuizRandPage = (props) => {
   const [randId, setRandId] = useState('')
 
   function getRandomQuestion() {
-    setRandId(Math.floor(Math.random() * 10) + 1)    
+    setRandId(Math.floor(Math.random() * quiz.length) + 1)    
   }
-  
-  console.log(randId);
+
+  useEffect(() => {
+    getRandomQuestion()
+  },[]) 
 
   return (
     <div className='container mx-auto max-w-8xl text-center'>
@@ -32,7 +34,6 @@ const QuizRandPage = (props) => {
       </div>
       <button
         className='m-10 p-3 px-3 border-2 rounded-full border-blue-500 hover:bg-blue-400 hover:text-white'
-        onClick={getRandomQuestion}
         >
         <Link to={`/quiz/${randId}`}>Случайный вопрос</Link>
           </button>
